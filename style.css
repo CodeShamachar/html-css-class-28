@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Hind Siliguri", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: #e7e7e7;
+}
+
+.main_Container{
+  width: 90px;
+  height: 100vh;
+  background: #868383e8;
+  transition: .5s;
+}
+.main_Container:hover{
+  width: 250px;
+}
+
+.sidber{
+  padding: 1rem;
+  position: relative;
+  height: 100%;
+}
+
+.logo{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  padding: .5rem;
+  background: #78fef8;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #1a1a1a83;
+}
+
+.logo p{
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: #232323de;
+  color: #fff;
+  padding: 20px;
+  margin-left: -4px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.logo span{
+  padding-left: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.manu_list{
+  margin-top: 1rem;
+  padding: 10px;
+  background: #78fef8;
+  border-radius: 10px;
+    box-shadow: 2px 2px 10px #1a1a1a83;
+}
+
+.manu_list a{
+  display: flex;
+  align-items: center;
+  padding: .6rem;
+  overflow: hidden;
+  color: #272727;
+  font-weight: 500;
+  transition: .4s;
+}
+
+.manu_list a:hover{
+  padding-left: 20px;
+  background: #272727d0;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.manu_list a i{
+  font-size: 1.2rem;
+  margin: 0 1.8rem 0 0;
+}
